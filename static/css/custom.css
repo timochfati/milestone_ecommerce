@@ -2,8 +2,6 @@ body {
 
     font-family: Arial;
 
-    padding-top: 100px; 
-
 }
 
 footer {
@@ -101,7 +99,6 @@ caption p {
 .panel-default {
 
     border-color: transparent;
-
     padding: 0 10px;
 
 }
@@ -113,13 +110,21 @@ caption p {
     height: 100%;
 
     border: 1px solid #ddd;
+    padding: 10px;
 
 }
 
-
+.caption{
+    text-align: center;
+}
 
 .product-description {
 
     min-height: 40px;
+    text-align: center
 
+}
+
+.form-inline {
+    text-align: center;
 }

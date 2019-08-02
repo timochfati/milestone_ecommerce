@@ -2,11 +2,8 @@
 
 {% load bootstrap_tags %} 
 
-{% block page_title %} Login Page {% endblock %}
-
-{% block page_heading %} User Login {% endblock %}
 {% block content %} 
-  
+ <br/> <br/> <br/> <br/>  
 
 <form method="POST">
        {% csrf_token %}
@@ -14,5 +11,4 @@
        <button type="submit" class="btn btn-default">Login</button>
 </form>
 
-<p><a href="{% url 'password_reset' %}"> Reset password </a></p>
-    {% endblock %}
+    {% endblock %} 

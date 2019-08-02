@@ -2,8 +2,8 @@
 
 {% block content %} 
 
-
-<p><b> Welcome back {{ user.username }}! </b></p>
+<br/><br/><br/><br/>
+<p><b> Welcome back, {{ user.username }}! </b></p>
 
 <table class="table table-striped table-dark">
   <thead>
@@ -28,4 +28,25 @@
     </tr>
   </tbody>
 </table>
+
+<!-- ========================= SECTION CONTENT  ========================= -->
+<section id="content" class="section-content padding-y-lg">
+<div class="container">
+
+<header class="section-heading text-center">
+	<h2 class="title-section">Our Return Policy</h2>
+	<p class="lead"> You don´t have to worry about getting the wrong products. </p>
+</header><!-- sect-heading -->
+
+<div class="row justify-content-center">
+	<article class="col-md-6 text-center">
+	<p>If for any reason you are not completely satisfied with your purchase, simply return the unused portion and we will remit 
+    your account for the full amount of the purchase or exchange for another item.
+    You have up to 10 working days to return the items. </p>
+	</article> <!-- col.// -->
+</div> <!-- row.// -->
+
+</div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONTENT  END// ========================= -->
 {% endblock %}

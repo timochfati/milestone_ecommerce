@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block content %}
+
+<!-- ========================= SECTION INTRO ========================= -->
+<section id="intro" class="section-intro bg-light pt-5">
+<div class="container">
+	<div class="row d-flex" style="min-height:600px;">
+	<div class="col-sm-6 d-flex align-items-center">
+		<header class="intro-wrap text-danger">
+			<h2 class="display-3"><b> Your Beauty Corner On The Internet </b></h2>
+			
+			<a href="{% url 'login' %}" class="btn btn-dark">Sign In</a>
+			<a href="{% url 'register' %}" class="btn btn-dark">Register</a>
+		</header>  <!-- intro-wrap .// -->
+	</div> <!-- col.// -->
+	<div class="col-sm-6 text-right">
+        <img src="../media/images/brush.jpg" class="img-fluid my-5" width="500"></div>
+       <div class="col-sm-6 text-left">
+        <img src="../media/images/hand.png" class="img-fluid my-6"  width="500">	
+    </div> <!-- col.// -->
+    <div class="col-sm-6 d-flex align-items-center">
+            <header class="intro-wrap text-danger">
+                <h2 class="display-3"><b> GET FREE SHIPPING WITH YOUR ORDER TODAY!</b></h2>
+            </header>  <!-- intro-wrap .// -->
+        </div> <!-- col.// -->
+	</div> <!-- row.// -->
+</div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION INTRO END// ========================= -->
+{% endblock %}
