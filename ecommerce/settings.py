@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),('4bdcea1c29414977980685029fa260fe.vfs.cloud9.us-east-1.amazonaws.com')]
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),('4bdcea1c29414977980685029fa260fe.vfs.cloud9.us-east-1.amazonaws.com'),('beautycorner.herokuapp.com')]
 
 
 # Application definition
