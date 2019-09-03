@@ -1,3 +1,4 @@
+
 # The Beauty Corner 
 In this project, I have chosen to make an E-commerce web-app. This app is make-up related, it provides a variety of make-up / skincare products which users can purchase and pay for by registering, if they are new to the website or log in if they are already members.
 After picking their favourite product(s), users get transferred to the checkout page where they check their purchase and then enter their personal information to pay for the products.
@@ -61,6 +62,8 @@ To buy an item:
 6. Enter your details and submit payment
 
 Bugs: In the checkout section, the number of items appears outside the box. (for unknown reasons)
+After the user logs out after registering, it is unable to login even though new users are stored perfectly in the admin page. 
+Moreover, the amend button in the checkout  shows an error when pressed due to technical problems. 
 
 All the contents are visible on all screensizes and devices.
 
