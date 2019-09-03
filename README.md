@@ -63,7 +63,7 @@ To buy an item:
 
 Bugs: In the checkout section, the number of items appears outside the box. (for unknown reasons)
 After the user logs out after registering, it is unable to login even though new users are stored perfectly in the admin page. 
-Moreover, the amend button in the checkout  shows an error when pressed due to technical problems. 
+
 
 All the contents are visible on all screensizes and devices.
 
